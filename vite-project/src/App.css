@@ -1,0 +1,315 @@
+.form-container {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  height: 470px;
+  width: 30%;
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(24, 24, 249);
+}
+.form h1 {
+  color: white;
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  outline: none;
+  text-indent: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.btn-register {
+  padding: 10px;
+  width: 35%;
+  font-weight: 600;
+  background-color: rgb(65, 65, 243);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(65, 65, 243);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn-register:hover {
+  background-color: white;
+  color: rgb(65, 65, 243);
+}
+.btn-login {
+  padding: 10px;
+  width: 35%;
+  font-weight: 600;
+  background-color: rgb(65, 65, 243);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(65, 65, 243);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-login:hover {
+  background-color: white;
+  color: rgb(65, 65, 243);
+}
+.p-regis {
+  color: white;
+}
+.link-regis {
+  text-decoration: none;
+  padding: 5px;
+  color: blue;
+}
+.link-log {
+  text-decoration: none;
+  padding: 5px;
+  color: blue;
+}
+.success {
+  color: rgb(255, 255, 255);
+  background-color: rgba(93, 250, 158, 0.352);
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 60%;
+}
+.error {
+  color: rgb(255, 255, 255);
+  background-color: rgba(234, 65, 53, 0.352);
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 60%;
+}
+.invisible-msg {
+  display: none;
+}
+
+.track-container {
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+}
+
+.inp-track {
+  width: 100%;
+  padding: 5px;
+  text-indent: 10px;
+  outline: none;
+  border: 2px solid white;
+}
+.item-section {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(64, 152, 145);
+  color: white;
+  cursor: pointer;
+  position: absolute;
+}
+.search-container {
+  position: relative;
+}
+
+.food-container {
+  height: auto;
+  /* background-color: rgb(34, 0, 255);*/
+  width: 100%;
+  padding: 20px;
+  row-gap: 10px;
+}
+.img-food {
+  height: 350px;
+  width: 100%;
+  /*background-color: yellow;*/
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.nutrient {
+  width: 45%;
+  /* background-color: palevioletred;*/
+}
+.nutri-title {
+  color: white;
+}
+.nutri-value {
+  color: white;
+}
+.nutrient-container {
+  width: 100%;
+  /*background-color: gray;*/
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.inp-food {
+  width: 100%;
+  text-indent: 10px;
+  height: 30px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.btn-track {
+  padding: 10px;
+  background-color: rgb(54, 54, 254);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(54, 54, 254);
+  cursor: pointer;
+  width: 30%;
+}
+
+.food-h1 {
+  color: white;
+}
+
+.diet-container {
+  background-color: rgb(232, 230, 230);
+}
+.items {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(34, 34, 33);
+  color: rgb(216, 233, 242);
+  padding: 20px;
+}
+
+.inp-dateCon {
+  background-color: rgb(21, 21, 21);
+  display: flex;
+  padding: 10px;
+}
+
+.dismess {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dismess-h1 {
+  color: white;
+}
+
+.form-login {
+  height: 400px;
+}
+.form-reg {
+  height: 510px;
+}
+
+.mynav {
+  background-color: rgb(0, 0, 0) !important;
+}
+.mycont a {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black !important;
+}
+@media (max-width: 791px) {
+  .form {
+    width: 50%;
+  }
+
+  .btn-register {
+    width: 43%;
+  }
+
+  .form-login {
+    height: 450px;
+  }
+  .form-reg {
+    height: 550px;
+  }
+  .myul {
+    color: white !important;
+  }
+  .myli {
+    padding-left: 15px;
+    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .nav-link {
+    transition: 0.2s !important;
+    width: 30%;
+  }
+  .nav-link:hover {
+    background-color: white;
+    color: black !important;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 792px) {
+  .form {
+    width: 35%;
+    /*background-color: red;*/
+  }
+
+  .btn-register {
+    width: 39%;
+  }
+  .myul {
+    color: white !important;
+  }
+  .myli {
+    padding-left: 15px;
+    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+@media only screen and (max-width: 1194px) and (min-width: 991px) {
+  .form {
+    width: 35%;
+  }
+
+  .btn-register {
+    width: 35%;
+  }
+
+  .myul {
+    color: white !important;
+  }
+  .myli {
+    padding-left: 15px;
+    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 991px) {
+  .myul {
+    color: white !important;
+
+    width: 50%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .myli {
+    width: 20%;
+    text-align: center;
+  }
+}
